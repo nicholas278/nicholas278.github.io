@@ -1,0 +1,59 @@
+/* 
+    Created on : 14-Sep-2015, 4:56:42 PM
+    Author     : Nicholas
+*/
+
+body{
+    margin: 0px;
+}
+#wrapper{
+    width: 100%;
+    height: 600px;
+    background-color: #fff;
+}
+#topbanner{
+    width: 100%;
+    height: 50px;
+    background-color: #ededed;
+    margin: 0;
+}
+#topbanner div{
+    display:inline-block;
+}
+#topbanner #logo{
+    width: 50px;
+    height: 48px;
+    border: 1px solid black;
+}
+#topbanner #signin{
+    padding: 3px;
+    float: right;
+}
+#optionblock{
+    margin: 100px auto;
+    width:400px;
+    height: 250px;
+    text-align:center;
+    border: 3px solid grey;
+}
+#optionblock div{
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border: 2px solid blue;
+}
+#article{
+    float: left;
+    margin: 20px 0px 0px 1.5%;
+    width: 47%;
+    height: 500px;
+    background-color: #fbe54e;
+}
+#drawingboard{
+    float: left;
+    margin: 20px 0px 0px 1.5%;
+    width: 47%;
+    height: 500px;
+    background-color: grey;
+}
+
