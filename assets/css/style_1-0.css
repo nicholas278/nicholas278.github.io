@@ -1,0 +1,145 @@
+/*Created by Nicholas Lee on Sep 18, 2015*/
+/*****Version 1-0*****/
+
+body{
+	background-color: black;
+}
+
+/*****Content Wrapper*****/
+#wrapper{
+	margin: 30px auto;
+	width: 940px;
+	height: 1230px;
+	background-color: #0E0E0E;
+	border-radius: 10px;
+	box-shadow: 20px 20px 10px #888888;
+	position: relative;
+}
+
+/*****Shared Tags*****/
+.heading{
+	margin: 5px 0px 0px 0px;
+	color: brown;
+	font-family: Georgia, serif;
+}
+.content{
+	margin: 8px 0px;
+	padding: 0px;
+	color: white;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 0.85em;
+}
+strong{
+	color: orange;
+}
+a{
+	text-decoration: none;
+}
+a:link{
+	color: teal;
+}
+a:visited{
+	color: lightblue;
+}
+a:hover{
+	color: blue;
+}
+
+/*****Header Div*****/
+#header{
+	padding: 10px;
+	text-align: center;
+	border-radius: 10px 10px 0px 0px;
+	background-color: #660000;
+}
+#header .heading{
+	color: white;
+}
+
+/*****Name Block Div*****/
+#nameblock{
+	margin: 10px;
+	width: 920px;
+	height: 430px;
+	float: right;
+}
+#namecard{
+	margin: 150px 0px;
+	padding: 10px;
+	width: 350px;
+	float: left;
+	border: 5px solid white;
+	border-left-width: 0px;
+	border-right-width: 0px;
+}
+#namecard table{
+	margin: auto;
+}
+#namecard table td:first-child{
+	text-align:right;
+	color: darkred;
+}
+#nameblock img{
+	margin: 10px 0px;
+	float: left;
+	width: 540px;
+	border: 5px solid white;
+	border-radius: 100px;
+}
+
+/*****About Block Div*****/
+#aboutblock{
+	margin: 0px 10px 10px 10px;
+	padding: 5px;
+	float: left;
+	width: 450px;
+	height: 310px;
+	border: 5px double white;
+	border-radius: 25px;
+}
+
+/*****Skill Block Div*****/
+#skillblock{
+	margin: 0px 0px 10px 0px;
+	padding: 0px 10px;
+	float: left;
+	width: 410px;
+	height: 220px;
+	border: 5px solid white;
+	background-color: #2F2F2F;
+}
+
+/*****Link Block Div*****/
+#linkblock{
+	margin: 0px 10px;
+	padding: 0px 10px;
+	clear: left;
+	float: left;
+	width: 550px;
+	height: 290px;
+	border: 5px solid white;
+	background-color: #2F2F2F;
+}
+
+/*****Tool Block Div*****/
+#toolblock{
+	margin: 0px;
+	padding: 5px 10px;
+	position: absolute;
+	bottom: 53px;
+	right: 10px;
+	width: 300px;
+	height: 380px;
+	border: 5px double white;
+	border-radius: 25px;
+}
+#toolblock ul{
+	margin: 0px;
+}
+
+/*****Footer Div*****/
+#footer{
+	padding: 10px;
+	position: absolute;
+	bottom: 0;
+}
